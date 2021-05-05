@@ -1,79 +1,46 @@
-<!DOCTYPE html>
-<head>
-  <title>wolhaiksong</title>
-  <style>
-    body{
-  font-family: monospace;
-  
-}
-h1{
-  
-  color:black;
-  font-size: 48px;
-}
-.menu ul{
-  list-style-type:none;
-  float:left;
-  display: flex;
-  margin :10px;
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-.menu li{
-  font-size:20px;
-  margin: 10px;
-}
-
-.content {
-  padding: 50px 0px 0px 0px;
-  margin:0 auto;
-  text-align: center;
-}
-.img-background{
-  margin:0 auto;
-  background: red;
-  width:150px;
-  height:150px;
-  border-radius:50%;
-}
-.name{
-  text-align:center;
-  padding:30px 10px 10px 10px;
-  margin:0 auto;
-  font-size:30px;
-  font-weight: bold;
-}
-.about{
-  margin:0 auto;
-  width:350px;
-  height:350px;
-  font-size:14px;
-  text-align:justify;
-   text-justify: inter-word;
-  
-}
-
-  </style>
-</head>
-<body>
-  <navbar>
-    <div class="wrap-content">
-      <div class="menu">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Created by DBS!</title>
+  </head>
+  <body>
+    <nav class="menu" style="">
+        <div class="home">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
       </div>
-    </div>
-  </navbar>
-  <main>
-    <div class="content">
-      <h1>Wolhaiksong</h1>
-    </div>
-    <div class="img-background"></div>
-    <h1 class="name">Dwimas Budi Sulistyo</h1>
-    <div class="about">
-      <p>Dwimas Budi Sulistyo is a director of brand marketing, with experience managing global teams and multi-million-dollar campaigns. Her background in brand strategy, visual design, and account management inform her mindful but competitive approach. Madison is fueled by her passion for understanding the nuances of cross-cultural advertising. She considers herself a ‘forever student,’ eager to both build on her academic foundations in psychology and sociology and stay in tune with the latest digital marketing strategies through continued coursework.</p>
-    </about>
-  </main>
-</body>
+    </nav>
+    <div class="spacer"></div>
+      <div class="utama">
+        <div class="content">
+          <h1 class="nama">Dwimas Budi Sulistyo<span>.</span></h1>
+        </div>
+        <div class="hero">
+          <img src="https://prog-8.com/progate/production/images/user/16198534739c367fa5030bb2ed" class="pic"></img>
+      </div>
+      <div class="spacer"></div>
+           <button onclick="play()" class="button">Press to play audio</button>
+           <audio id="audio" src="audio2.mp3" autoplay="" loop=""></audio>
+      </div>
+      <div class="type-writter">
+        <div class="container py-5">
+          <div class="output" id="output">
+          <h1 class="cursor"></h1>
+          <p></p>
+          </div>
+        </div>
+      </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jss.js"></script>
+    
+  </body>
+</html>
